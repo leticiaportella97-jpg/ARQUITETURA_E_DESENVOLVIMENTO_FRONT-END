@@ -1,0 +1,71 @@
+h1 {
+    color: #B89B7A;
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    color: #913003;
+    font-size: 40px;
+    text-align: left;
+}
+
+header {
+    height: 300px;
+
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(245, 239, 230, 0) 50%,
+            rgba(245, 239, 230, 1) 100%
+        ),
+        url("plano de fundo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #F5EFE6;
+}
+
+button {
+    background-color: #B89B7A;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    background-color: #B89B7A;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+details{
+    background-color: #B89B7A;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#calendarioSalao,
+#calendarioChurrasqueira,
+#calendarioQuadra {
+    display: none;
+}
